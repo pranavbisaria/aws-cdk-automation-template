@@ -1,6 +1,6 @@
 import { Stack, StackProps, Tags } from 'aws-cdk-lib';
 import { Code, Function, Runtime } from 'aws-cdk-lib/aws-lambda';
-import { Cors, LambdaIntegration, RestApi } from 'aws-cdk-lib/aws-apigateway';
+import { LambdaIntegration, RestApi } from 'aws-cdk-lib/aws-apigateway';
 import { Construct } from 'constructs';
 import { apiRoots, methods, version } from '../constants';
 import { IAM_ACTIONS } from '../envconfig';
