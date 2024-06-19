@@ -3,6 +3,11 @@
 ## Objective
 This is a template module that contains code to deploy any function to AWS Lambda and associate an API Gateway trigger to execute the function.
 
+## Prerequisites
+1. Aws CLI
+2. NodeJs [ `> 18` ]
+3. Latest Cdk [`npm install -g aws-cdk`]
+
 ## Steps to Setup:
 1. Go to the root directory `aws-cdk-automation-template`.
 
